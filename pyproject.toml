@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "my-film-bot"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry <pythonprogrammer9999@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_film_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^2.25.1"
+profanity-check = "^1.0.3"
+openai = "^0.27.8"
+kinopoisk-dev = "^0.2.0"
+telegram = "^0.0.1"
+keyboa = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
